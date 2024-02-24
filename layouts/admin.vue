@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full pt-4">
+  <div class="h-full pt-4 bg-gray-900 text-white">
     [Admin Layout]
 
     <slot />
@@ -8,7 +8,7 @@
 
 <script setup lang="ts">
 useHead({
-  htmlAttrs: { class: 'h-full bg-gray-900 text-white' },
-  bodyAttrs: { class: 'h-full overflow-hidden this-class-should-not-be-on-default-layout' },
+  htmlAttrs: { class: 'h-full admin-layout-html-class' },
+  bodyAttrs: { class: 'h-full overflow-hidden admin-layout-body-class bg-gray-900 text-white' },
 })
 </script>

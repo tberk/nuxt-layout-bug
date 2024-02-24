@@ -8,7 +8,7 @@
 
 <script setup lang="ts">
 useHead({
-  bodyAttrs: { class: 'h-full bg-gray-900 text-white' },
-  htmlAttrs: { class: 'h-full' },
+  htmlAttrs: { class: 'h-full default-layout-html-class' },
+  bodyAttrs: { class: 'h-full default-layout-body-class bg-gray-900 text-white' },
 })
 </script>
